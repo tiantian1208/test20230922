@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
-      - uses: actions/checkout@v4
       - id: foo
         uses: tiantian1208/learngit@v2
         with:
